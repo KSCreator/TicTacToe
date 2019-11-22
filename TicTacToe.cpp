@@ -55,7 +55,7 @@ void getInput(Player &player,short board[3][3])
     //as user will enter 1 to 9 so decrease by one as array starts with 0
     x--;
 
-    //if x = 7 then x/3 = 2 and x%3 = 1 board[2][3]
+    //if x = 7 then x/3 = 2 and x%3 = 1 board[2][1]
     board[x/3][x%3] = player;
 
     //swap value X-O of player
