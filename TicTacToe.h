@@ -46,7 +46,7 @@ bool check(int x,short board[3][3]);
 /**
 to get X,O,space
 @params
-int x;
+int x; // to change it to char
 */
 char toChar(int x);
 
