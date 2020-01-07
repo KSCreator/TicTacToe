@@ -5,7 +5,7 @@
 /**
 to get X,O,space
 @params
-int x;
+int x; //to change it in char
 */
 char toChar(int x)
 {
@@ -21,13 +21,14 @@ char toChar(int x)
 /**
 get user input
 @params
-Player &player;//to change player after every run used reference
+Player &player;//to change player after every run, used reference
 short board[3][3];//to change value and get value from board
 */
 void getInput(Player &player,short board[3][3])
 {
     int x = 0;
     std::cout<<"Player "<<((player == PlayerO)?('O'):('X'))<<"'s term : ";
+
     do{
     std::cin>>x;
 
